@@ -1,13 +1,13 @@
 import './App.css';
 import Footer from './pages/Footer'
 import Leaderboard from './pages/Leaderboad'
+import NavBar from './pages/NavBar'
+import Header from './components/Header'
 
 function App(){
     return (
-        <body className=''>
-            <div>
-                Hello
-            </div>
+        <body>
+            <Header/>
             <div className='m-10'>
                 <Leaderboard/>
             </div>

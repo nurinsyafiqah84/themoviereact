@@ -1,9 +1,11 @@
+const { rgbToHex } = require('@mui/material');
+
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ["./src/**/*.{html,js}"],
   theme: {
     colors:{
-      'darkBlue': '#031d33',
+      'darkBlue': 'rgb(3,37,65)',
       'white': '#ffffff',
       'lightBlue': '#01B4E4',
       'lightGreen': '#4ade80',
